@@ -1,0 +1,84 @@
+body {
+	font-family: "Segoe UI", sans-serif;
+	background-color: #f8f8f8;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.container {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+}
+
+h1 {
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.upload-label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #555;
+}
+
+.drop-zone {
+	border: 2px dashed #bbb;
+	border-radius: 10px;
+	padding: 40px;
+	background-color: #fafafa;
+	cursor: pointer;
+	transition: background-color 0.3s, border-color 0.3s;
+}
+
+.drop-zone.dragover {
+	background-color: #e0f7fa;
+	border-color: #00bcd4;
+}
+
+.drop-zone p {
+	margin: 0;
+	font-size: 16px;
+	color: #777;
+}
+
+.drop-zone input[type="file"] {
+	display: none;
+}
+
+.preview {
+	margin-top: 20px;
+}
+
+.preview img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 10px;
+}
+
+.result {
+	margin-top: 30px;
+}
+
+.result h2 {
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+canvas {
+	max-width: 100%;
+	margin: auto;
+}
+
+.hidden {
+	display: none;
+}
